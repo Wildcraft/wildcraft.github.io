@@ -26,6 +26,8 @@ github:
 projects:
   first: https://github.com/orgs/Wildcraft/projects/1
 
+force-https: True
+
 plugins:
   - jekyll-paginate
   - jemoji
