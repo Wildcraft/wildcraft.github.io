@@ -23,6 +23,9 @@ version:          2.0.0
 github:           
   repo:           https://github.com/Wildcraft/
 
+projects:
+  first: https://github.com/orgs/Wildcraft/projects/1
+
 plugins:
   - jekyll-paginate
   - jemoji
