@@ -10,8 +10,7 @@ title: Java Module Configuration
 <img src="https://i.pinimg.com/originals/1c/17/47/1c1747af6e09d50e889cb80afc17302b.png" alt="" style="width:700px;"/>
 
 <div class="message">
-JavaModuleConfiguration
-         ::= 'open'? 'module' name '{' ( 'requires' 'public'? 'static'? moduleName ';' )* ( ( 'exports' | 'open' ) packageName ( 'to' moduleName )? ';' )* ( 'uses' SPIClassNameWithPackage ';' )* ( 'provides' SPIClassNameWithPackage 'with' SPIClassImplWithPackage ';' )* '}'
+JavaModuleConfiguration ::= '@annotation'? 'open'? 'module' name '{' ('requires' 'transitive'? 'static'? moduleName (',' moduleName)* ';' )* ( ( 'exports' | 'open' ) packageName ( 'to' moduleName (',' moduleName)* )? ';' )* ( 'uses' SPIClassNameWithPackage (',' SPIClassNameWithPackage)* ';' )* ( 'provides' SPIClassNameWithPackage 'with' SPIClassImplWithPackage (',' SPIClassImplWithPackage)* ';' )* '}'
 </div>
 
 <div>
