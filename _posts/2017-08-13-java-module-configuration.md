@@ -7,7 +7,7 @@ title: Java Module Configuration
   Java Module Configuration in Java 9 can be expressed with EBNF and Rail Road Diagram as shown below.
 </div>
 
-<img src="https://i.pinimg.com/originals/f3/6e/27/f36e27550dfbe6fdf957a4ee6133d21c.png" alt="" style="width:700px;"/>
+<img src="https://i.pinimg.com/originals/1c/17/47/1c1747af6e09d50e889cb80afc17302b.png" alt="" style="width:700px;"/>
 
 <div class="message">
 JavaModuleConfiguration

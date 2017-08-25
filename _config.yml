@@ -28,6 +28,8 @@ projects:
 
 force-https: True
 
+google-tracking-id: "UA-105323889-1"
+
 plugins:
   - jekyll-paginate
   - jemoji
