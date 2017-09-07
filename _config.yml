@@ -30,7 +30,7 @@ force-https: True
 
 google-tracking-id: "UA-105323889-1"
 
-disqus-shortname: "wildcraft-github-io"
+disqus-shortname: "http-wildcraft-github-io"
 
 plugins:
   - jekyll-paginate
