@@ -19,5 +19,7 @@ Aggregator is a module with module-info.class only. There are 3 aggregator modul
 
 In order to know about the list of exported packages and service provider interfaces & providers, refer - [JDK Module Summary](http://cr.openjdk.java.net/~mr/jigsaw/ea/module-summary.html)
 
+The above diagram has been generated using <a href="https://d3js.org/" target="_blank">D3 JS library</a> and with a reference implementation for <a href="https://bl.ocks.org/mbostock/7607999" target="_blank">Hierarchical Edge Bundling</a>. To know more about the diagram generation, you can check out the reference implementation.
+
 <script type="text/javascript" src="/public/js/d3.v3.min.js"></script>
 <script type="text/javascript" src="/public/js/jdk-modules.js"></script>
