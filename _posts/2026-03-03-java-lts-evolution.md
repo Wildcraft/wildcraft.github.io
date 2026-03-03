@@ -132,3 +132,11 @@ Released in September 2025, Java 25 continues the momentum of language moderniza
     ```
 
 The transition from Java 11 to 25 shows a clear path towards simpler syntax, better performance, and superior concurrency models. Each LTS version brings significant refinements that make Java a more powerful and enjoyable language to work with!
+
+## References
+
+*   [OpenJDK: JDK 25 JEPs integrated since JDK 21](https://openjdk.org/projects/jdk/25/jeps-since-jdk-21)
+*   [Oracle: JDK 25 Release Notes](https://www.oracle.com/java/technologies/javase/25all-relnotes.html)
+*   [Java Almanac: Java 25 Features](https://javaalmanac.io/jdk/25/)
+*   [Baeldung: String Templates in Java](https://www.baeldung.com/java-21-string-templates)
+*   [Advanced Web Machinery: Categorized List of Java Features (JDK 8 to 21)](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/)
