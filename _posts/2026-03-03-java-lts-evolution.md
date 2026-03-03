@@ -86,7 +86,7 @@ Java 21 (September 2023) introduced groundbreaking features for scalability and 
         System.out.println("Coordinates: " + x + ", " + y);
     }
     ```
-*   **String Templates (Preview) [JEP 430]**: Simplified string composition with embedded expressions.
+*   **String Templates (Preview) [JEP 430]**: Introduced in Java 21 to simplify string composition. *Note: This feature was removed in JDK 23 pending a redesign and is not present in subsequent LTS versions in this form.*
     ```java
     String name = "Java";
     String message = STR."Hello \{name}!";
