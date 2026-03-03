@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Java 11, 17, 21 - The LTS Evolution
+title: Java 11, 17, 21, 25 - The LTS Evolution
 ---
 
-As the Java ecosystem continues to evolve with its six-month release cycle, the Long-Term Support (LTS) releases remain the bedrock for enterprise stability. Let's take a look at the major milestones from Java 11, 17, and the latest LTS, Java 21.
+As the Java ecosystem continues to evolve with its six-month release cycle, the Long-Term Support (LTS) releases remain the bedrock for enterprise stability. Let's take a look at the major milestones from Java 11, 17, 21, and the newest LTS, Java 25.
 
 ## Java 11: Modernizing the Foundation
 
@@ -87,4 +87,38 @@ Java 21 (September 2023) introduced groundbreaking features for scalability and 
     }
     ```
 
-The transition from Java 11 to 21 shows a clear path towards simpler syntax, better performance, and superior concurrency models. If you are still on Java 8 or 11, the features in 17 and 21 provide a compelling reason to upgrade!
+## Java 25: The First LTS of the Future
+
+Released in September 2025, Java 25 continues the momentum of language modernization:
+
+*   **Flexible Constructor Bodies**: You can now execute code *before* calling `super()` or `this()` in a constructor, making it easier to validate arguments or initialize fields.
+    ```java
+    public class Customer extends Person {
+        private final UUID id;
+        public Customer(String name) {
+            if (name == null || name.isBlank()) throw new IllegalArgumentException();
+            this.id = UUID.randomUUID();
+            super(name); // Now allowed after initialization/validation!
+        }
+    }
+    ```
+*   **Module Import Declarations**: Simplify your imports by importing an entire module's exported types with a single declaration.
+    ```java
+    import module java.base;
+    import module com.company.utils;
+
+    public class App {
+        public static void main(String[] args) {
+            List<String> list = List.of("Java 25"); // From java.base
+            Logger.info("Starting..."); // From com.company.utils
+        }
+    }
+    ```
+*   **Key Derivation Function API**: A standard API for password-based key derivation (PBKDF2, scrypt).
+    ```java
+    var kdf = KDF.getInstance("PBKDF2WithHmacSHA256");
+    var key = kdf.deriveKey(...);
+    ```
+*   **Primitive Types in Patterns (Preview)**: Extend pattern matching to work seamlessly with all primitive types.
+
+The transition from Java 11 to 25 shows a clear path towards simpler syntax, better performance, and superior concurrency models. Each LTS version brings significant refinements that make Java a more powerful and enjoyable language to work with!
