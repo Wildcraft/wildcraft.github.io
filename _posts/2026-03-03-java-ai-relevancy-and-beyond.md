@@ -74,4 +74,4 @@ Java isn't just surviving the AI revolution; it's evolving to lead it. By focusi
 *   [OpenJDK: Project Valhalla](https://openjdk.org/projects/valhalla/)
 *   [OpenJDK: JDK 26 Project Page](https://openjdk.org/projects/jdk/26/)
 *   [OpenJDK: JDK 27 Project Page](https://openjdk.org/projects/jdk/27/)
-*   [Inside Java: Vector API](https://inside.java/tag/vector-api/)
+*   [Inside Java: Vector API](https://inside.java/tag/vector/)
